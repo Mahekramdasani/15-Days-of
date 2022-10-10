@@ -1,3 +1,33 @@
+/*
+Given an array nums of size n, return the majority element.
+The majority element is the element that appears more than ⌊n / 2⌋ times. 
+You may assume that the majority element always exists in the array. 
+Input Format
+length = 3
+arr = [3, 2,3]
+Constraints
+
+n == nums.length
+1 <= n <= 5 * 104
+-109 <= nums[i] <= 109
+Output Format
+
+3
+Sample Input 0
+
+3
+3 2 3
+Sample Output 0
+
+3
+Sample Input 1
+
+7
+2 2 1 1 1 2 2
+Sample Output 1
+
+2
+*/
 import java.io.*;
 import java.util.*;
 import java.text.*;

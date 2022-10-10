@@ -1,3 +1,46 @@
+/*
+ * You are given an m x n integer matrix grid. We define an pattern(I-shape) as a part of the matrix with the following form:
+                                             _______
+                                             |A|B|C|
+                                             | |D| |
+                                             |E|F|G|
+
+Return the maximum sum of the elements of an pattern. Note that an hourglass cannot be rotated and must be entirely contained within the matrix.
+
+Input Format
+
+m = 3  n = 3
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+Constraints
+
+m == grid.length
+n == grid[i].length
+3 <= m, n <= 150
+0 <= grid[i][j] <= 106
+
+Output Format
+
+35 (Explanation:1+2+3+5+7+8+9)
+
+Sample Input 0
+
+3
+3
+1 2 3 4 5 6 7 8 9
+Sample Output 0
+
+35
+
+Sample Input 1
+
+4
+4
+6 2 1 3 4 2 1 5 9 2 8 7 4 1 2 9
+Sample Output 1
+
+30
+ */
 import java.io.*;
 import java.util.*;
 import java.text.*;
